@@ -1,0 +1,106 @@
+/*
+# .................
+#..
+*/
+
+/*-----------------Variable */
+
+:root {
+  /*------ Colores */
+  --green-color: #7acc2d;
+  --black-color: #313337;
+  --white-color: white;
+  /*------ Tipografía */
+  --normal: 12px;
+  /*------ Espaciado */
+  --space: 10px;
+  --space-2: 20px;
+}
+
+/*-----------------Variable */
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+nav {
+  display: flex;
+  background-color: pink;
+  padding: 10px;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 50px;
+  list-style: none;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+/*------------------------------Main section*/
+
+.main_section {
+  padding: 5%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../images/imagen3.jpg");
+  max-height: 315px;
+  background-size: cover;
+  background-position: center;
+  padding: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  padding: 10px;
+  margin-top: -280px;
+}
+
+.product .content {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20;
+  box-shadow: 0 0 5px #c1bcbc;
+}
+
+.img_content {
+  text-align: center;
+}
+
+.yk_image {
+  background-color: url("../images/logo1.png");
+}
+
+.main_button {
+  padding: var(--space);
+  background-color: var(--green-color);
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.main_button:hover {
+  background-color: green;
+}
