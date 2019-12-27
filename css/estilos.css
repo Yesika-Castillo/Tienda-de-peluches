@@ -1,106 +1,199 @@
-/*
-# .................
-#..
-*/
-
-/*-----------------Variable */
-
-:root {
-  /*------ Colores */
-  --green-color: #7acc2d;
-  --black-color: #313337;
-  --white-color: white;
-  /*------ Tipografía */
-  --normal: 12px;
-  /*------ Espaciado */
-  --space: 10px;
-  --space-2: 20px;
-}
-
-/*-----------------Variable */
-
-html,
-body {
-  padding: 0px;
-  margin: 0px;
-  font-size: 12px;
-  font-family: Helvetica;
-}
-
-nav {
-  display: flex;
-  background-color: pink;
-  padding: 10px;
-  color: black;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-}
-
-nav li {
-  padding-left: 50px;
-  list-style: none;
-}
-
-nav li a {
-  color: black;
-  text-decoration: none;
-}
-
-nav li a:hover {
-  color: white;
-}
-
-/*------------------------------Main section*/
-
-.main_section {
-  padding: 5%;
-  text-align: center;
-}
-
-.products {
-  background-image: url("../images/imagen3.jpg");
-  max-height: 315px;
-  background-size: cover;
-  background-position: center;
-  padding: 20%;
-  display: flex;
-  justify-content: center;
-}
-
-.product {
-  padding: 10px;
-  margin-top: -280px;
-}
-
-.product .content {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20;
-  box-shadow: 0 0 5px #c1bcbc;
-}
-
-.img_content {
-  text-align: center;
-}
-
-.yk_image {
-  background-color: url("../images/logo1.png");
-}
-
-.main_button {
-  padding: var(--space);
-  background-color: var(--green-color);
-  width: 100%;
-  border: 0px;
-  border-radius: 2px;
-  cursor: pointer;
-  color: var(--white-color);
-}
-
-.main_button:hover {
-  background-color: green;
-}
+    /*-----------------Variable */
+    
+     :root {
+        /*------ Colores */
+        --green-color: #7acc2d;
+        --black-color: #313337;
+        --white-color: white;
+        /*------ Tipografía */
+        --normal: 12px;
+        /*------ Espaciado */
+        --space: 10px;
+        --space-2: 20px;
+    }
+    /*-----------------Variable */
+    
+    html,
+    body {
+        padding: 0px;
+        margin: 0px;
+        font-size: 12px;
+        font-family: Helvetica;
+    }
+    
+    p,
+    label {
+        font-size: var(--normal);
+    }
+    
+    label {
+        padding-bottom: var(--space);
+    }
+    
+    nav {
+        display: flex;
+        background-color: rgb(148, 122, 148);
+        padding: 10px;
+        color: black;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+    
+    nav li {
+        padding-left: 50px;
+        list-style: none;
+    }
+    
+    nav li a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    nav li a:hover {
+        color: white;
+    }
+    /*------------------------------Main section*/
+    
+    .main_section {
+        padding: 5%;
+        text-align: center;
+    }
+    
+    .products {
+        background-image: url("../images/imagen3.jpg");
+        max-height: 315px;
+        background-size: cover;
+        background-position: center;
+        padding: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .product {
+        padding: 10px;
+        margin-top: -280px;
+    }
+    
+    .product .content {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20;
+        box-shadow: 0 0 5px #c1bcbc;
+    }
+    
+    .img_content {
+        text-align: center;
+    }
+    
+    .yk_image {
+        background-color: url("../images/logo1.png");
+    }
+    
+    .main_button {
+        padding: var(--space);
+        background-color: var(--green-color);
+        width: 100%;
+        border: 0px;
+        border-radius: 2px;
+        cursor: pointer;
+        color: var(--white-color);
+    }
+    
+    .main_button:hover {
+        background-color: green;
+    }
+    /* Beneficios*/
+    
+    .beneficios {
+        text-align: center;
+        display: flex;
+    }
+    
+    .beneficios {
+        text-align: center;
+        padding: 20 px;
+    }
+    
+    .beneficios img {
+        max-height: 100px;
+    }
+    
+    .texto_beneficio {
+        text-align: justify;
+    }
+    /* Mentions */
+    
+    .mentions {
+        display: flex;
+        padding: 5%;
+    }
+    
+    .mentions img {
+        width: 100%;
+    }
+    
+    h2.mentions_title {
+        text-align: center;
+    }
+    
+    .mentions {
+        padding: var(--space);
+    }
+    
+    .content_mention {
+        box-shadow: opx o 2px 1px #e6e5e9;
+    }
+    
+    .main_button {
+        padding: var(--space);
+        background-color: var(--green-color);
+        width: 100%;
+        border: 0px;
+        border-radius: 2px;
+        cursor: pointer;
+        color: white;
+        margin-bottom: hover background color: #63a426;
+    }
+    /*----------------------------- ventas*/
+    
+    .modulo_pago {
+        background-color: rgb(201, 195, 195);
+        box-shadow: var(--green-color);
+        padding: 10px;
+    }
+    
+    .modulo_pago_images {
+        max-width: 150px;
+        text-align: center;
+        widows: 100px;
+        margin: auto;
+    }
+    
+    .modulo_pago input {
+        margin-top: var(--space);
+        widows: 100%;
+        height: 35px;
+        border-radius: 2px;
+    }
+    
+    .col-12,
+    .col-4,
+    .col-8 {
+        margin: 5%;
+        align-self: center;
+    }
+    
+    .col-8h2 {
+        text-align: inherit;
+    }
+    
+    .col-4img {
+        width: 230px;
+        height: 230px;
+        margin: auto;
+        display: block;
+    }

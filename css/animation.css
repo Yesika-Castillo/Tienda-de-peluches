@@ -1,12 +1,11 @@
 /*https://daneden.github.io/animate.css/*/
 
 .fadeIn {
-    -webkit-animation-duration: ;
-    : 4s;
+    -webkit-animation-duration: 4s;
     animation-duration: 4s;
     animation-fill-mode: both;
     -webkit-animationanimation-fill-mode: both;
-    -webkit-animation name: fadeIn;
+    -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
 }
 
@@ -24,7 +23,7 @@
     animation-duration: 1s;
     animation-fill-mode: both;
     -webkit-animationanimation-fill-mode: both;
-    -webkit-animation name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
 }
 
@@ -46,7 +45,7 @@
     animation-duration: 1s;
     animation-fill-mode: both;
     -webkit-animationanimation-fill-mode: both;
-    -webkit-animation name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
 }
 
